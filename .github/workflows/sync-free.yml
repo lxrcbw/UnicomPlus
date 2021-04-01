@@ -36,7 +36,6 @@ jobs:
         with:
           src: github/q7871177xhj
           dst: gitee/lxrcbw
-          static_list: "
-UnicomPlus"
+          static_list: "UnicomPlus"
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token: ${{ secrets.GITEE_TOKEN }}
